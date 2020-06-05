@@ -3,6 +3,7 @@
     <Title></Title>
     <AboutMe></AboutMe>
     <Works></Works>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import Title from './components/Title.vue'
 import AboutMe from './components/AboutMe.vue'
 import Works from './components/Works.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     Title,
     AboutMe,
-    Works
+    Works,
+    Footer
   }
 }
 </script>
