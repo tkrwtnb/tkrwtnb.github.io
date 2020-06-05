@@ -1,13 +1,12 @@
 <template>
-    <div>
+    <div class="works">
         <section class="card">
             <img class="card-img" src="../../assets/portfolio_site.png" alt="">
             <div class="card-content">
-                <h1 class="card-title">ポートフォリオサイト</h1>
+                <h1 class="card-title">portfolio site</h1>
                 <p class="card-text">Vueの練習も兼ねて</p>
             </div>
             <div class="card-link">
-                <a href="http://webcreatorbox.com/about">About</a>
                 <a href="http://webcreatorbox.com/">Website</a>
             </div>
         </section>
@@ -16,8 +15,14 @@
 
 <style>
 
+.works {
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+
 .card {
-  margin: 30px auto;
+  margin: 0px auto;
   width: 350px;
   background: #fff;
   border-radius: 5px;

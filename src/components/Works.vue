@@ -2,6 +2,7 @@
     <div>
         <h1>Works</h1>
         <WorkCard></WorkCard>
+        
     </div>
 </template>
 
