@@ -23,7 +23,7 @@ div {
 }
 
 h1 {
-    font-size: 4.5vw;
+    font-size: 2.5rem;
     font-weight: 500;
     text-decoration: underline;
 }
@@ -38,8 +38,8 @@ h1 {
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    width: 50vw;
-    font-size: 3vw;
+    width: 25rem;
+    font-size: 2rem;
 }
 
 li {
