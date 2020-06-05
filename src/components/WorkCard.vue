@@ -1,7 +1,7 @@
 <template>
     <div>
         <section class="card">
-            <img class="card-img" src="http://webcreatorbox.com/sample/images/bear.jpg" alt="">
+            <img class="card-img" src="../../assets/portfolio_site.png" alt="">
             <div class="card-content">
                 <h1 class="card-title">ポートフォリオサイト</h1>
                 <p class="card-text">Vueの練習も兼ねて</p>
