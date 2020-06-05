@@ -19,7 +19,7 @@ export default {
 
 <style>
 .img {
-    width: 100%;
+    width: 95%;
     height: auto;
     padding: 0px;
     margin: 0px;
