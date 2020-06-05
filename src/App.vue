@@ -2,18 +2,21 @@
   <div id="app">
     <Title></Title>
     <AboutMe></AboutMe>
+    <Works></Works>
   </div>
 </template>
 
 <script>
 import Title from './components/Title.vue'
 import AboutMe from './components/AboutMe.vue'
+import Works from './components/Works.vue'
 
 export default {
   name: 'App',
   components: {
     Title,
-    AboutMe
+    AboutMe,
+    Works
   }
 }
 </script>

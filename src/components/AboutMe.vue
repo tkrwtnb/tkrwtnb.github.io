@@ -7,6 +7,8 @@
                 <p>skills   : Flutter, iOS, Android, Unity</p>
                 <p>age : 19</p>
             </div>
+            <p>高専生2年の終わり頃からプログラミングを始める</p>
+            <p>特定の技術に依存せず、様々な分野に触れている</p>
         </div>
 
     </div>
@@ -15,7 +17,7 @@
 
 <style scoped>
 div {
-    margin-top: 15vw;
+    margin-top: 20vw;
     color: #fefefe;
 }
 
