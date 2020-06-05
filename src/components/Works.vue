@@ -1,9 +1,20 @@
 <template>
     <div>
         <h1>Works</h1>
+        <WorkCard></WorkCard>
     </div>
 </template>
 
+
+<script>
+import WorkCard from "./WorkCard"
+
+export default {
+    components: {
+        WorkCard
+    }
+}
+</script>
 
 <style scoped>
 div {
