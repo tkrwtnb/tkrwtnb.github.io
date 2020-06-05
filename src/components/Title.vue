@@ -2,7 +2,7 @@
     <div class="title-board">
         <img class="img" src="../../assets/sea.jpg"/>
         <div class="text">
-            <img class="logo" src="../../assets/nighthawk.png">
+            <img class="logo" src="../../assets/night_nighthawk.png">
             <p class="name">tkr wtnb</p>
             <p>i'm mobile app developer</p>
         </div>
