@@ -4,10 +4,10 @@
             <img class="card-img" src="../../assets/portfolio_site.png" alt="">
             <div class="card-content">
                 <h1 class="card-title">portfolio site</h1>
-                <p class="card-text">Vueの練習も兼ねて</p>
+                <p class="card-text">Vueの練習も兼ねて制作</p>
             </div>
             <div class="card-link">
-                <a href="http://webcreatorbox.com/">Website</a>
+                <a href="http://wtnbtkr.github.io">Website</a>
             </div>
         </section>
     </div>
@@ -17,7 +17,7 @@
 
 .works {
     margin: 0px;
-    padding: 0px;
+    padding: 10px;
     display: inline;
 }
 
@@ -56,10 +56,10 @@
 }
 .card-link a {
   text-decoration: none;
-  color: #0bd;
+  color: grey;
   margin: 0 10px;
 }
 .card-link a:hover {
-  color: #0090aa;
+  color: #212121;
 }
 </style>
