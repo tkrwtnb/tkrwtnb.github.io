@@ -54,13 +54,13 @@ export default {
     
 }
 
-function imageJustSize() {
-  var mainVisual = document.getElementById('js-main-visual');
-  var winH = window.innerHeight;
-  mainVisual.style.height = winH + 'px';
-}
+// function imageJustSize() {
+//   var mainVisual = document.getElementById('js-main-visual');
+//   var winH = window.innerHeight;
+//   mainVisual.style.height = winH + 'px';
+// }
 
-imageJustSize();
+// imageJustSize();
 
-window.addEventListener('resize', imageJustSize);
+// window.addEventListener('resize', imageJustSize);
 </script>
