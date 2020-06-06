@@ -1,17 +1,17 @@
 <template>
   <v-app>
-    Hello!
+    <Title></Title>
   </v-app>
 </template>
 
 <script>
-
+import Title from './components/Title'
 
 export default {
   name: 'App',
 
   components: {
-
+    Title
   },
 
   data: () => ({
@@ -19,3 +19,7 @@ export default {
   }),
 };
 </script>
+
+<style>
+
+</style>
