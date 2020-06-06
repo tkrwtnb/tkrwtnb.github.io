@@ -17,8 +17,24 @@
         </ul>
         <p>高専2年の終わり頃から本格的にプログラミングを始める</p>
         <p>一つの技術に絞らず様々な技術に触れる</p>
+        <v-icon class="icon" @click="openURL('https://twitter.com/dev_tkrwtnb')" color="#212121">fab fa-twitter</v-icon>
+        <v-icon class="icon" @click="openURL('https://github.com/wtnbtkr')" color="#212121">fab fa-github</v-icon>
+
+
     </div>
 </template>
+
+<script>
+export default {
+    methods: {
+        openURL: function (url) {
+            window.open(url, "_blank");
+        }
+    }    
+}
+</script>
+
+
 <style scoped>
 
 div {
@@ -33,4 +49,8 @@ div {
     padding: 0;
 }
 
+.icon {
+    color: #212121;
+    margin: 15px;
+}
 </style>
