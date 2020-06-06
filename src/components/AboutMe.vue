@@ -8,7 +8,7 @@
       </li>
       <li>
         <strong>skills</strong>
-        <p>Flutter, iOS, Android</p>
+        <p>Flutter, iOS, Unity</p>
       </li>
       <li>
         <strong>age</strong>
