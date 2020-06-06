@@ -12,25 +12,50 @@
         <v-card-title>Top 10 Australian beaches</v-card-title>
         </v-img>
 
-        <v-card-subtitle class="pb-0">Number 10</v-card-subtitle>
+        <v-card-subtitle class="pb-0">{{ data.tech }}</v-card-subtitle>
 
         <v-card-text class="text--primary">
-        <div>Whitehaven Beach</div>
+        <div>{{ data.title }}</div>
 
-        <div>Whitsunday Island, Whitsunday Islands</div>
+        <div>{{ data.subtitle }}</div>
         </v-card-text>
 
         <v-card-actions>
         <v-btn
-            color="orange"
+            color="#212121"
             text
-        >
-            more datails
+            @click="openURL(data.url)"
+            >
+            more details
         </v-btn>
+        <v-btn
+            color="#212121"
+            text
+            @click="openURL(data.github)"
+            v-if="data.github !== undefined"
+            >
+            <v-icon>fab fa-github</v-icon>
+        </v-btn> 
         </v-card-actions>
     </v-card>
     </div>
 </template>
+
+
+<script>
+export default {
+    name: 'WorkCard',
+    props: {
+        data: Object
+    },
+    methods: {
+        openURL: function (url) {
+            window.open(url, "_blank");
+        }
+    }
+}
+</script>
+
 
 <style scoped>
 div {

@@ -51,16 +51,19 @@
 
 <script>
 export default {
-    
+    methods: {
+        ajustImageSize: function imageJustSize() {
+            var mainVisual = document.getElementById('js-main-visual');
+            var winH = window.innerHeight;
+            mainVisual.style.height = winH + 'px';
+        }
+    },
+    mounted: function() {
+        this.ajustImageSize();
+        window.addEventListener('resize', this.ajustImageSize);
+    }
+
 }
 
-// function imageJustSize() {
-//   var mainVisual = document.getElementById('js-main-visual');
-//   var winH = window.innerHeight;
-//   mainVisual.style.height = winH + 'px';
-// }
 
-// imageJustSize();
-
-// window.addEventListener('resize', imageJustSize);
 </script>

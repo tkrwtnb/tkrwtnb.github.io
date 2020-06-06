@@ -4,7 +4,7 @@
         <v-container>
             <v-row>
                 <v-col>
-                    <Card></Card>
+                    <Card :data="works"></Card>
                 </v-col>
                 <v-col>
                     <Card></Card>
@@ -21,7 +21,19 @@ import Card from './WorkCard'
 export default {
     components: {
         Card
-    }    
+    },
+    data: () => {
+        return {
+            works: {
+                tech: "Vue",
+                title: "portfolio site",
+                subtitle: "Vueでの制作",
+                imgPath: "../assets/portfolio.png",
+                url: "https://wtnbtkr.github.io",
+                github: "https://github.com/wtnbtkr/wtnbtkr.github.io"
+            }
+        }
+    }
 }
 </script>
 
