@@ -31,7 +31,5 @@ export default {
 </script>
 
 <style>
-.v-application {
-  font-family: "M Plus 1p", sans-serif;
-}
+
 </style>
