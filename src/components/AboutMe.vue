@@ -30,5 +30,7 @@ div {
 .details {
     list-style: none;
     text-align: center;
+    padding: 0;
 }
+
 </style>
