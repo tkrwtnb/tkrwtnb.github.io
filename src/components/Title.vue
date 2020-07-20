@@ -18,7 +18,7 @@
 
 <style scoped>
 .main-visual {
-  background-image: url(../assets/maria.jpg);
+  background-image: url(../assets/remaria.jpg);
   background-size: cover;
   height: 100vh;
   color: #fafafa;
