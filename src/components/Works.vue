@@ -27,7 +27,7 @@ export default {
             portfolio_site: {
                 tech: "Vue",
                 title: "portfolio site",
-                subtitle: "Vueでの制作",
+                subtitle: "",
                 imgPath: "re_portfolio.png",
                 url: "https://tkrwtnb.github.io",
                 github: "https://github.com/tkrwtnb/tkrwtnb.github.io"
@@ -36,7 +36,7 @@ export default {
                 tech: "Flutter",
                 title: "Moonlight",
                 subtitle: "分散型SNS Misskeyクライアントアプリ",
-                imgPath: "coming_soon.png",
+                imgPath: "moonlight.png",
                 url: "https://github.com/tkrwtnb/Moonlight",
                 github: "https://github.com/tkrwtnb/Moonlight",
             }
