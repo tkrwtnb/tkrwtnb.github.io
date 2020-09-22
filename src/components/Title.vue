@@ -8,7 +8,7 @@
                     >
                 </v-avatar>
                 <h1>tkrwtnb</h1>
-                <h2>i'm mobile developer</h2>
+                <h2>i'm mobile app developer</h2>
             </div>
         </div>
     </div>
