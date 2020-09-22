@@ -4,10 +4,10 @@
         <v-container>
             <v-row>
                 <v-col>
-                    <Card :data="works"></Card>
+                    <Card :data="portfolio_site"></Card>
                 </v-col>
                 <v-col>
-                    <Card></Card>
+                    <Card :data="moonlight"></Card>
                 </v-col>
             </v-row>
         </v-container>
@@ -24,13 +24,21 @@ export default {
     },
     data: () => {
         return {
-            works: {
+            portfolio_site: {
                 tech: "Vue",
                 title: "portfolio site",
                 subtitle: "Vueでの制作",
-                imgPath: "../assets/portfolio.png",
+                imgPath: "re_portfolio.png",
                 url: "https://tkrwtnb.github.io",
                 github: "https://github.com/tkrwtnb/tkrwtnb.github.io"
+            },
+            moonlight: {
+                tech: "Flutter",
+                title: "Moonlight",
+                subtitle: "分散型SNS Misskeyクライアントアプリ",
+                imgPath: "coming_soon.png",
+                url: "https://github.com/tkrwtnb/Moonlight",
+                github: "https://github.com/tkrwtnb/Moonlight",
             }
         }
     }

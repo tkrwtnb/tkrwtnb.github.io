@@ -4,7 +4,7 @@
             <div class="inner">
                 <v-avatar size="145" class="img">
                     <img
-                        src="../assets/nighthawk.png"
+                        src="../assets/re_nighthawk.png"
                     >
                 </v-avatar>
                 <h1>tkrwtnb</h1>
