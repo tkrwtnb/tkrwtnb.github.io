@@ -7,9 +7,8 @@
         <v-img
         class="white--text align-end"
         height="200px"
-        src="../assets/portfolio.png"
+        v-bind:src="loadImg()"
         >
-        <v-card-title>Top 10 Australian beaches</v-card-title>
         </v-img>
 
         <v-card-subtitle class="pb-0">{{ data.tech }}</v-card-subtitle>
@@ -51,6 +50,9 @@ export default {
     methods: {
         openURL: function (url) {
             window.open(url, "_blank");
+        },
+        loadImg: function () {
+            return require(`../assets/${this.data.imgPath}`)
         }
     }
 }
