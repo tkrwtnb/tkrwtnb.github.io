@@ -28,7 +28,7 @@ export default {
                 tech: "Vue",
                 title: "portfolio site",
                 subtitle: "Vueでの制作",
-                imgPath: "portfolio.png",
+                imgPath: "re_portfolio.png",
                 url: "https://tkrwtnb.github.io",
                 github: "https://github.com/tkrwtnb/tkrwtnb.github.io"
             },
