@@ -11,7 +11,8 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.12",
-    "vuetify": "^2.3.10"
+    "vuetify": "^2.3.10",
+    "highlight.js": ">=10.4.1"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
